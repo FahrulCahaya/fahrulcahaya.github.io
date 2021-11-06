@@ -1,0 +1,35 @@
+<html>
+<head>
+ <title>Formulir Vaksin </title>
+</head>
+<body bgcolor="white">
+
+<h2>Formulir Vaksin</h2>
+  <img src="https://fahrulcahaya.github.io/myfahrulcahaya.github.io/Foto/Vaksin.jpeg" alt="Vaksin" width="600" height="400"> <br></br>
+<form action=" Formulir.html" method="get">
+<table border="1"align="Left">
+<tr><td>Nama :</td><td><input type="text" ></td></tr>
+<tr><td>Alamat :</td><td><input type="password maxlength="30"></td></tr>
+<tr><td>Jenis Kelamin :</td></tr>
+<tr><td>Laki-Laki :</td><td><input type="radio" name="jenis_kelamin" value="laki-laki" checked /> </td></tr>
+<tr><td>Perempuan :</td><td><input type="radio" name="jenis_kelamin" value="perempuan" /></td></tr>
+<tr><td>Vaksin: </td><td><input type="checkbox" name="ingin_vaksin" /> Vaksin Sinovac
+<input type="checkbox" name="ingin_vaksin" checked /> Vaksin Astrazeneca
+<input type="checkbox" name="ingin_vaksin" /> Vaksin Moderna</tr></td>
+<tr><td>Umur: </td><td>
+<select name="asal_Umur" >
+ <option value="17-25"> 17-25</option>
+ <option>26-40</option>
+ <option value="41-55" selected>41-55</option>
+</select></td></tr>
+<tr><td>Masukan Saran :</td><td>
+<textarea name="komentar" rows="5" cols="20">
+Silahkan katakan Saran dan masukan!
+</textarea></tr></td>
+
+
+<tr><td></td><td><input type="submit" name="submit" value="Mulai Proses"></td></tr>
+</table>
+</form>
+</body>
+</html>
